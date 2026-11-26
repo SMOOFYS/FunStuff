@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Castle Quest</title>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//projects.codewizardshq.com/assets/m11-base-styles.css">
+    <script src="//projects.codewizardshq.com/assets/m11-error-handling.js"></script>
+    <script type="module">
+        import * as index from './__target__/index.js';
+        window.index = index;
+    </script>
+    <style>
+        p {
+            font-family: 'IM Fell Double Pica', serif;
+            line-height: 91px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            align-items: center;
+            background-color: #1a4d89;
+        }
+
+        #canvas {
+            width: 1200px;
+            height: 700px;
+            border: 5px solid #333;
+            position: relative;
+            overflow: hidden;
+            background-size: cover;
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+	<pre id="error"></pre>
+
+    <div id="canvas"></div>
+
+    <div id="blackout">
+        <button id="start" onclick="start(this);">Start</button>
+    </div>
+
+    <script src="//projects.codewizardshq.com/assets/m11-start-script.js"></script>
+
+</body>
+
+</html>

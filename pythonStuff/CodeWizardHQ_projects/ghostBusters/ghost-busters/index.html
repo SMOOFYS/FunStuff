@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ghost Busters</title>
+    <link rel="stylesheet" href="//projects.codewizardshq.com/assets/m11-base-styles.css">
+    <script src="//projects.codewizardshq.com/assets/m11-error-handling.js"></script>
+    <script type="module">
+        import * as index from './__target__/index.js';
+        window.index = index;
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            position: fixed; /* prevents scrolling */
+        }
+        
+        .fade-out {
+            opacity: 0;
+        }
+
+        p {
+            color: white;
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+</head>
+
+<body>
+	<pre id="error"></pre>
+
+    <div id="blackout">
+        <button id="start" onclick="start(this);">Start</button>
+    </div>
+
+    <script src="//projects.codewizardshq.com/assets/m11-start-script.js"></script>
+
+</body>
+
+</html>

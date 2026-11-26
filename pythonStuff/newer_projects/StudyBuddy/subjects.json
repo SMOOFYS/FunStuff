@@ -1,0 +1,1092 @@
+{
+    "AP Euro":[
+        {
+            "question":"A terrible famine in 1315-1322 that hit much of Europe after a period of climate change.",
+            "options":[
+                "A. Ice Age",
+                "B. Black Death",
+                "C. Great Famine"
+            ],
+            "answer": "C"
+        },
+        {
+            "question":"Plague that first struck Europe in 1347 and killed perhaps one-third of the population.",
+            "options":[
+                "A. Black Death/Bubonic Plague",
+                "B. Great Famine",
+                "C. Jacquerie"
+            ],
+            "answer": "A"
+        },
+        {
+            "question":"People who believed that the plague was God's punishment for sin and sought to do penance by flagellating (whipping) themselves.",
+            "options":[
+                "A. Statue of Kilkeny",
+                "B. Concillarists",
+                "C. Jeanists",
+                "D. Flagellants"
+            ],
+            "answer": "D"
+        },
+        {
+            "question":"A war between England and France from 1337 to 1453, with politcal and economic causes and consequences.",
+            "options":[
+                "A. Great Schism",
+                "B. English Peasants' Revolt",
+                "C. Hundred Years' War"
+            ],
+            "answer": "C"
+        },
+        {
+            "question":"Deliberate meetings of lords and wealthy urban residents that flourished in many European countries between 1250 and 1450.",
+            "options":[
+                "A. Representative Assemblies",
+                "B. Babylonian Captivity",
+                "C. Confraternities"
+            ],
+            "answer": "A"
+        },
+        {
+            "question": "The philosophical and cultural movement that emphasized the rediscovery of classical antiquity and individualism during the 14th-17th centuries.",
+            "options": [
+              "A. Enlightenment",
+              "B. Renaissance",
+              "C. Scientific Revolution"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The treaty that ended the Thirty Years' War in 1648 and marked the beginning of the modern state system.",
+            "options": [
+              "A. Treaty of Tordesillas",
+              "B. Peace of Westphalia",
+              "C. Congress of Vienna"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "A banking family that rose to prominence in Renaissance Florence, acting as patrons of the arts and wielding political power.",
+            "options": [
+              "A. Medici",
+              "B. Borgia",
+              "C. Habsburg"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The 1517 document in which Martin Luther criticized the Catholic Church's sale of indulgences.",
+            "options": [
+              "A. 95 Theses",
+              "B. Edict of Worms",
+              "C. Act of Supremacy"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The belief that a ruler's authority comes directly from God.",
+            "options": [
+              "A. Social Contract",
+              "B. Divine Right of Kings",
+              "C. Secularism"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The 1688 revolution in England that resulted in a constitutional monarchy.",
+            "options": [
+              "A. French Revolution",
+              "B. Glorious Revolution",
+              "C. Industrial Revolution"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The intellectual movement of the 17th and 18th centuries that emphasized reason and individualism over tradition.",
+            "options": [
+              "A. Renaissance",
+              "B. Reformation",
+              "C. Enlightenment"
+            ],
+            "answer": "C"
+          },
+          {
+            "question": "The economic policy that emphasizes the accumulation of gold and silver and the establishment of a favorable balance of trade.",
+            "options": [
+              "A. Mercantilism",
+              "B. Capitalism",
+              "C. Socialism"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The 1494 agreement dividing newly discovered lands outside Europe between Spain and Portugal.",
+            "options": [
+              "A. Treaty of Utrecht",
+              "B. Treaty of Tordesillas",
+              "C. Peace of Augsburg"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The 16th-century response of the Catholic Church to the Protestant Reformation, involving reforms and reaffirmation of doctrine.",
+            "options": [
+              "A. Counter-Reformation",
+              "B. Great Schism",
+              "C. Council of Nicaea"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The system of agricultural labor in which peasants were tied to the land they worked.",
+            "options": [
+              "A. Serfdom",
+              "B. Feudalism",
+              "C. Guild System"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The 16th-century agreement that allowed German princes to choose the religion of their territories.",
+            "options": [
+              "A. Edict of Nantes",
+              "B. Peace of Augsburg",
+              "C. Treaty of Westphalia"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The 18th-century prison stormed by revolutionaries, marking the start of the French Revolution.",
+            "options": [
+              "A. Versailles",
+              "B. Bastille",
+              "C. Tuileries"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The French philosopher who authored \"The Social Contract\" and argued that government should reflect the general will.",
+            "options": [
+              "A. Voltaire",
+              "B. Montesquieu",
+              "C. Rousseau"
+            ],
+            "answer": "C"
+          },
+          {
+            "question": "The 19th-century ideology that emphasized loyalty to a nation-state and the right to self-determination.",
+            "options": [
+              "A. Nationalism",
+              "B. Imperialism",
+              "C. Socialism"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The technological and agricultural advances that transformed European agriculture in the 18th century.",
+            "options": [
+              "A. Agricultural Revolution",
+              "B. Industrial Revolution",
+              "C. Scientific Revolution"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The political system characterized by a strong central monarchy and the suppression of feudal privileges.",
+            "options": [
+              "A. Absolutism",
+              "B. Constitutionalism",
+              "C. Liberalism"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The alliance formed by Austria, Russia, and Prussia to suppress revolutionary movements post-1815.",
+            "options": [
+              "A. Quadruple Alliance",
+              "B. Holy Alliance",
+              "C. Concert of Europe"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The economic transformation marked by the rise of factories, urbanization, and mechanized production.",
+            "options": [
+              "A. Agricultural Revolution",
+              "B. Industrial Revolution",
+              "C. Enlightenment"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The enclosure movement in 18th-century England that consolidated agricultural land, leading to increased productivity but displacing rural workers.",
+            "options": [
+              "A. Crop Rotation",
+              "B. Enclosure",
+              "C. Open-Field System"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The 18th-century population explosion in Europe due to declining death rates and improved agricultural practices.",
+            "options": [
+              "A. Demographic Revolution",
+              "B. Population Boom",
+              "C. Population Explosion"
+            ],
+            "answer": "C"
+          },
+          {
+            "question": "The 18th-century economic theory advocating for limited government intervention in markets and the free flow of commerce.",
+            "options": [
+              "A. Mercantilism",
+              "B. Laissez-Faire",
+              "C. Physiocracy"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The shift in 18th-century Europe from subsistence agriculture to market-oriented farming and production.",
+            "options": [
+              "A. Agrarian Revolution",
+              "B. Market Revolution",
+              "C. Agricultural Transformation"
+            ],
+            "answer": "A"
+          },
+          {
+            "question": "The rural domestic industry in 18th-century Europe, where peasants produced goods at home for merchants.",
+            "options": [
+              "A. Guild System",
+              "B. Cottage Industry",
+              "C. Factory System"
+            ],
+            "answer": "B"
+          },
+          {
+            "question": "The 18th-century act reforms that strengthened British control over colonial trade.",
+            "options": [
+              "A. Navigation Acts",
+              "B. Maritime Reforms",
+              "C. Trade and Navigation Laws"
+            ],
+            "answer": "A"
+          }
+    ],
+    "Honors Chemistry":[
+    {
+      "question": "The measure of how close a measurement is to the true value.",
+      "options": [
+        "A. Precision",
+        "B. Accuracy",
+        "C. Significant Figures"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A characteristic of matter that does not depend on the amount of the substance.",
+      "options": [
+        "A. Extensive Property",
+        "B. Intensive Property",
+        "C. Chemical Property"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The number of protons in the nucleus of an atom is known as:",
+      "options": [
+        "A. Mass Number",
+        "B. Atomic Number",
+        "C. Isotope Number"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A calculation used to convert units in chemistry, often using conversion factors.",
+      "options": [
+        "A. Dimensional Analysis",
+        "B. Metric System",
+        "C. Stoichiometry"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A homogeneous mixture of two or more substances is called:",
+      "options": [
+        "A. Compound",
+        "B. Solution",
+        "C. Mixture"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The scientist who proposed the atomic theory in 1808.",
+      "options": [
+        "A. Rutherford",
+        "B. Dalton",
+        "C. Thomson"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A reaction that involves the transfer of electrons between substances is called:",
+      "options": [
+        "A. Redox Reaction",
+        "B. Precipitation Reaction",
+        "C. Acid-Base Reaction"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The mass of one mole of a substance is known as:",
+      "options": [
+        "A. Molar Mass",
+        "B. Atomic Mass",
+        "C. Molecular Weight"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The formula used to calculate dilutions in chemistry.",
+      "options": [
+        "A. PV = nRT",
+        "B. M1V1 = M2V2",
+        "C. E = mc^2"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A property of matter that depends on the quantity of the substance.",
+      "options": [
+        "A. Intensive Property",
+        "B. Extensive Property",
+        "C. Chemical Property"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A neutral particle in the nucleus of an atom is called:",
+      "options": [
+        "A. Proton",
+        "B. Neutron",
+        "C. Electron"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The principle stating that matter cannot be created or destroyed in a chemical reaction.",
+      "options": [
+        "A. Law of Definite Proportions",
+        "B. Law of Conservation of Matter",
+        "C. Law of Multiple Proportions"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The smallest unit of an element that retains its chemical properties.",
+      "options": [
+        "A. Molecule",
+        "B. Atom",
+        "C. Compound"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A chemical reaction where two solutions are mixed and a solid forms is known as:",
+      "options": [
+        "A. Precipitation Reaction",
+        "B. Redox Reaction",
+        "C. Acid-Base Reaction"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The process of determining the amount of solute in a solution.",
+      "options": [
+        "A. Titration",
+        "B. Dilution",
+        "C. Molarity Calculation"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The scientist who discovered the electron through the cathode ray tube experiment.",
+      "options": [
+        "A. Rutherford",
+        "B. Thomson",
+        "C. Bohr"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A pure substance made up of two or more elements chemically combined.",
+      "options": [
+        "A. Mixture",
+        "B. Compound",
+        "C. Solution"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The negatively charged particle in an atom.",
+      "options": [
+        "A. Proton",
+        "B. Neutron",
+        "C. Electron"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The technique used to separate substances based on differences in boiling points.",
+      "options": [
+        "A. Filtration",
+        "B. Distillation",
+        "C. Chromatography"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "A property that can be observed without changing the identity of a substance.",
+      "options": [
+        "A. Chemical Property",
+        "B. Physical Property",
+        "C. Extensive Property"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The sum of protons and neutrons in an atom is called:",
+      "options": [
+        "A. Atomic Number",
+        "B. Mass Number",
+        "C. Isotope Number"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The term used to describe the precision of measurements in terms of significant digits.",
+      "options": [
+        "A. Accuracy",
+        "B. Significant Figures",
+        "C. Dimensional Analysis"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The method of solving problems by converting between units using conversion factors.",
+      "options": [
+        "A. Metric Conversion",
+        "B. Dimensional Analysis",
+        "C. Unit Analysis"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The term for a positively charged particle in the nucleus of an atom.",
+      "options": [
+        "A. Proton",
+        "B. Neutron",
+        "C. Electron"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A homogeneous mixture of solute and solvent is called:",
+      "options": [
+        "A. Solution",
+        "B. Mixture",
+        "C. Compound"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The SI unit of mass is:",
+      "options": [
+        "A. Kilogram",
+        "B. Gram",
+        "C. Mole"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "A reaction where heat is absorbed is described as:",
+      "options": [
+        "A. Endothermic",
+        "B. Exothermic",
+        "C. Combustion"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "The term for substances that cannot be broken down into simpler substances by chemical means.",
+      "options": [
+        "A. Compounds",
+        "B. Mixtures",
+        "C. Elements"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "The ratio of mass to volume for a substance is called:",
+      "options": [
+        "A. Molarity",
+        "B. Density",
+        "C. Specific Heat"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "The chemical formula that shows the simplest whole-number ratio of atoms in a compound.",
+      "options": [
+        "A. Molecular Formula",
+        "B. Empirical Formula",
+        "C. Structural Formula"
+      ],
+      "answer": "B"
+    }
+  ],
+  "Pre-Calculus":[
+    {
+        "question": "What is the value of sin(90°)?",
+        "options": [
+            "A. 0",
+            "B. 1",
+            "C. Undefined"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which trigonometric identity is true?",
+        "options": [
+            "A. sin²θ + cos²θ = 1",
+            "B. tan²θ + 1 = cot²θ",
+            "C. sec²θ - 1 = csc²θ"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the reciprocal of tan(θ)?",
+        "options": [
+            "A. sin(θ)",
+            "B. cot(θ)",
+            "C. sec(θ)"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the exact value of cos(π/3)?",
+        "options": [
+            "A. 1/2",
+            "B. √3/2",
+            "C. 1"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Simplify the expression: sin²x + cos²x.",
+        "options": [
+            "A. 1",
+            "B. sin(x) + cos(x)",
+            "C. Undefined"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the period of the function y = sin(x)?",
+        "options": [
+            "A. π",
+            "B. 2π",
+            "C. 4π"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "The tangent function is undefined at which angle?",
+        "options": [
+            "A. 45°",
+            "B. 90°",
+            "C. 0°"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the value of cos(0°)?",
+        "options": [
+            "A. 1",
+            "B. 0",
+            "C. Undefined"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which is the double-angle formula for sin(2x)?",
+        "options": [
+            "A. 2sin(x)cos(x)",
+            "B. sin²x - cos²x",
+            "C. 1 - 2sin²x"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the exact value of tan(45°)?",
+        "options": [
+            "A. 0",
+            "B. 1",
+            "C. Undefined"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Simplify: sec(x) * cos(x).",
+        "options": [
+            "A. 1",
+            "B. sin(x)",
+            "C. Undefined"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the co-function identity for sin(π/2 - θ)?",
+        "options": [
+            "A. cos(θ)",
+            "B. sin(θ)",
+            "C. tan(θ)"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the amplitude of y = 3sin(x)?",
+        "options": [
+            "A. 1",
+            "B. 3",
+            "C. 0"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "If tan(θ) = 5/12, what is sin(θ) in a right triangle?",
+        "options": [
+            "A. 5/13",
+            "B. 12/13",
+            "C. 13/5"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the identity for tan²x + 1?",
+        "options": [
+            "A. sec²x",
+            "B. csc²x",
+            "C. 1"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the value of csc(30°)?",
+        "options": [
+            "A. 1",
+            "B. 2",
+            "C. Undefined"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "The range of the sine function is:",
+        "options": [
+            "A. [-1, 1]",
+            "B. (0, ∞)",
+            "C. (-∞, ∞)"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which angle has the same reference angle as 120°?",
+        "options": [
+            "A. 60°",
+            "B. 30°",
+            "C. 45°"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the exact value of cos(π)?",
+        "options": [
+            "A. 1",
+            "B. -1",
+            "C. 0"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the phase shift of y = cos(x - π/2)?",
+        "options": [
+            "A. π",
+            "B. π/2",
+            "C. 0"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the reciprocal of sin(θ)?",
+        "options": [
+            "A. cos(θ)",
+            "B. sec(θ)",
+            "C. csc(θ)"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Simplify: cot(x) * tan(x).",
+        "options": [
+            "A. 0",
+            "B. 1",
+            "C. Undefined"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the value of sin(-x)?",
+        "options": [
+            "A. -sin(x)",
+            "B. sin(x)",
+            "C. cos(x)"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the Pythagorean identity for cos²x?",
+        "options": [
+            "A. 1 - sin²x",
+            "B. 1 + tan²x",
+            "C. sin²x + 1"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "The horizontal shift in y = sin(x + π/4) is:",
+        "options": [
+            "A. -π/4",
+            "B. π/4",
+            "C. None"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the domain of the cosine function?",
+        "options": [
+            "A. All real numbers",
+            "B. [-1, 1]",
+            "C. (0, π)"
+        ],
+        "answer": "A"
+    },
+    {
+      "question": "What is the exact value of sin(45°) + cos(45°)?",
+      "options": [
+          "A. √2",
+          "B. 1",
+          "C. √2 / 2",
+          "D. 2√2"
+      ],
+      "answer": "A"
+  },
+    {
+        "question": "What is the exact value of sin(3π/2)?",
+        "options": [
+            "A. 1",
+            "B. -1",
+            "C. 0"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the cotangent of 0°?",
+        "options": [
+            "A. Undefined",
+            "B. 1",
+            "C. 0"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "What is the inverse of sin(x)?",
+        "options": [
+            "A. arcsin(x)",
+            "B. arccos(x)",
+            "C. arctan(x)"
+        ],
+        "answer": "A"
+    }
+],
+"CSP": [
+    {
+      "question": "What is the primary purpose of a computer?",
+      "options": [
+        "A. To store and retrieve data",
+        "B. To entertain",
+        "C. To generate random numbers"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Why were computers created?",
+      "options": [
+        "A. To simplify complex calculations",
+        "B. To replace books",
+        "C. To entertain people"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the base of the binary number system?",
+      "options": [
+        "A. 2",
+        "B. 10",
+        "C. 16"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the binary equivalent of the decimal number 5?",
+      "options": [
+        "A. 101",
+        "B. 111",
+        "C. 100"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Convert binary 1010 to decimal.",
+      "options": [
+        "A. 5",
+        "B. 10",
+        "C. 15"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is unique about the binary number system?",
+      "options": [
+        "A. It uses only 0s and 1s",
+        "B. It uses digits from 0 to 9",
+        "C. It is infinite"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the function of RAM in a computer?",
+      "options": [
+        "A. To store data temporarily",
+        "B. To store permanent files",
+        "C. To process calculations"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which component is responsible for the computer’s speed?",
+      "options": [
+        "A. CPU",
+        "B. Hard Drive",
+        "C. Power Supply"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a hard drive used for?",
+      "options": [
+        "A. To store permanent files",
+        "B. To generate power",
+        "C. To perform calculations"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What does an AND gate output when both inputs are 1?",
+      "options": [
+        "A. 0",
+        "B. 1",
+        "C. Undefined"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the output of a NOT gate if the input is 0?",
+      "options": [
+        "A. 0",
+        "B. 1",
+        "C. Undefined"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which logic gate outputs 1 only when both inputs are different?",
+      "options": [
+        "A. XOR",
+        "B. AND",
+        "C. OR"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "How many bits are there in a byte?",
+      "options": [
+        "A. 4",
+        "B. 8",
+        "C. 16"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of data compression?",
+      "options": [
+        "A. To increase data size",
+        "B. To reduce storage space",
+        "C. To make data more complex"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which encoding method uses repeated sequences?",
+      "options": [
+        "A. Run Length Encoding",
+        "B. Huffman Encoding",
+        "C. ASCII"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What are cookies used for?",
+      "options": [
+        "A. Tracking user activity",
+        "B. Storing passwords",
+        "C. Encrypting files"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What happens to files when they are deleted?",
+      "options": [
+        "A. They are completely erased",
+        "B. They remain on the storage device",
+        "C. They are compressed"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What makes a password strong?",
+      "options": [
+        "A. Using only numbers",
+        "B. Combining letters, numbers, and symbols",
+        "C. Keeping it short"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does ASCII stand for?",
+      "options": [
+        "A. American Standard Code for Information Interchange",
+        "B. Advanced System for Computing and Interfacing",
+        "C. Automated Sequence Coding Integration"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the purpose of an IP address?",
+      "options": [
+        "A. To identify a computer on a network",
+        "B. To encrypt network traffic",
+        "C. To store data permanently"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the difference between a modem and a router?",
+      "options": [
+        "A. A modem connects to the internet, while a router connects devices within a network",
+        "B. A router encrypts data, while a modem stores data",
+        "C. A modem creates a network, while a router connects to the internet"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which protocol ensures reliable data transfer over the internet?",
+      "options": [
+        "A. UDP",
+        "B. TCP",
+        "C. HTTP"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does redundancy in networks help with?",
+      "options": [
+        "A. Improving data compression",
+        "B. Ensuring data availability and reliability",
+        "C. Increasing storage capacity"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is a flowchart used for in programming?",
+      "options": [
+        "A. Planning the flow of a program",
+        "B. Testing program performance",
+        "C. Debugging syntax errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which loop type is best suited for iterating a fixed number of times?",
+      "options": [
+        "A. While loop",
+        "B. For loop",
+        "C. Infinite loop"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of nested loops?",
+      "options": [
+        "A. To iterate through multiple levels of data",
+        "B. To simplify code",
+        "C. To debug logical errors"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What does the Python 'print()' function do?",
+      "options": [
+        "A. Outputs text or data to the console",
+        "B. Executes a loop",
+        "C. Reads input from the user"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a Boolean value?",
+      "options": [
+        "A. A type of variable that can only be true or false",
+        "B. A numerical data type",
+        "C. A string-based data type"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the difference between a string and an integer in Python?",
+      "options": [
+        "A. A string is a sequence of characters, while an integer is a whole number",
+        "B. A string can only hold letters, while an integer can hold numbers and letters",
+        "C. Strings are faster to process than integers"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the role of error handling in programming?",
+      "options": [
+        "A. To manage and respond to errors during program execution",
+        "B. To optimize program performance",
+        "C. To store data more efficiently"
+      ],
+      "answer": "A"
+    }
+  ]
+}

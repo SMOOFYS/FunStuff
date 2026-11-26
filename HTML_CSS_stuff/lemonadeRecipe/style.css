@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+html{
+  width:100%;
+  background-color: #6ab8ba;
+  background:url('bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+body {
+  margin:auto;
+  max-width: 900px;
+  margin-top:20px;
+  font-size:40px;
+  padding-bottom: 400px;
+  font-family: 'Amatic SC', cursive;
+  overflow: hidden;
+  position: relative;
+}
+
+
+h1 {
+  margin:10px;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+  color:white;
+  text-align:center;
+}
+
+h2{
+  margin:auto;
+  font-size:35px; 
+  color:white;
+  text-align:center;
+  margin-bottom: -18px;
+}
+
+p{
+  max-width: 800px;
+  margin:auto;
+  color: white;
+  text-align:center;
+  margin-bottom: 5px;
+  background-color: rgba(0,0,0,0.2);
+  padding: 5px;  
+}
+
+img[src='lemonade.png'] {
+  height: 300px;
+  position: absolute;
+  margin-right: auto;
+  right:0px;
+  top:250px;
+}
+
+img[src='half-lemon.png'] {
+  height: 60px;
+  position: absolute;
+  left: 180px;
+  top: 80px;
+}
+
+img[src='lemon.png'] {
+  height: 60px;
+  position: absolute;
+  left: 120px;
+  top: 240px;
+}
+
+img[src='mint.png'] {
+  height: 60px;
+  position: absolute;
+  left: 120px;
+  top: 435px;
+}
+
+img[src='ice.png'] {
+  height: 60px;
+  position: absolute;
+  left: 120px;
+  top: 565px;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin|Bangers');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+
+body {
+    background-image:url("wall.jpg");
+    background-size:cover;
+    background-position:bottom;
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Bangers', cursive;
+    color:#ecf0f1;
+    text-shadow:0px 0px 5px #333;
+    font-size:72px;
+    font-weight:normal;
+}
+
+.container { 
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.container > div {
+    width:296px;
+    height:235px;
+    position:relative;
+    display:inline-block;
+    border: 2px solid black;
+    background-size:cover;
+    background-position:center center;
+}
+
+.container > div > img {
+  position:absolute;
+  height:180px;
+  bottom:5px;
+}
+
+p{
+  background-color:white;
+  padding:5px;
+  border-radius:10px;
+  width:110px;
+  margin:10px 10px 0px auto;
+  display:block;
+  font-family: 'Aladin', cursive;
+  line-height:1;
+  font-size:20px;
+  position:relative;
+}
+
+p:before{
+  	content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.8em solid transparent;
+	position: absolute;
+    bottom:-20px;
+	border-top: 10px solid white;
+}
+
+div:nth-child(2n+1) > p:before{
+    right:15px;
+}
+
+div:nth-child(2n+1)  > p{
+  margin-right:auto;
+  margin-left:10px;
+}
+
+div:nth-child(2n+1) > img{
+  right:0px;
+}
+
+.orange{
+    background-image:url("orange.png");
+}
+
+.pink {
+    background-image:url("pink.png")
+}
+
+.blue{
+    background-image:url("blue.png");
+}
+
+.red{
+    background-image:url('red.png');
+}
+
+.green{
+    background-image:url('green.png');
+}
+
+.oops{
+    background-image:url("oops.png"),url('blue.png');
+}
+
+.wow{
+    background-image:url('wow.png'), url('orange.png');
+}
+
+.bang{
+    background-image:url('bang.png'), url('orange.png');
+}
+
+.boom{
+    background-image:url('boom.png'), url('pink.png');
+}
+
+.poof{
+    background-image:url('poof.png'), url('green.png');
+}
+
+.pow{
+    background-image:url('pow.png'), url('red.png');
+}
+
+.wroom{
+    background-image:url('wroom.png'), url('green.png');
+}
+
+.kaboom{
+    background-image:url('kaboom.png'), url('orange.png');
+}
+
+.boo{
+    background-image:url('boo.png'), url('red.png');
+}

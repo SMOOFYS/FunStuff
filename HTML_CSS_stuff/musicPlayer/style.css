@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Bungee Spice", cursive;
+  font-weight: normal;
+  font-size: 48px;
+  color: darkcyan;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+#Minecraft {
+  background-image: url("minecraft.png");
+  text-align: center;
+}
+#lavasong {
+  background-image: url("lavasong.png");
+  text-align: center;
+}
+#letitgo {
+  background-image: url(letitgo.png);
+  text-align: center;
+}
+#ducksong {
+  background-image: url(ducksong.png);
+  text-align: center;
+}
+#coco {
+  background-image: url(coco.png);
+  text-align: center;
+}
+#taco {
+  background-image: url(tacos.png);
+  text-align: center;
+}
+a {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: darkslategray;
+  width: 250px;
+  background-color: lightblue;
+  display: inline-block;
+}

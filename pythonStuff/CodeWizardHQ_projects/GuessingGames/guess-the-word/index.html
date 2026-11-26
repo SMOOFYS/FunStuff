@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="//projects.codewizardshq.com/assets/m11-base-styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="//projects.codewizardshq.com/assets/m11-error-handling.js"></script>
+    <script type="module">
+        import * as index from './__target__/index.js';
+        window.index = index;
+    </script>
+    <style>
+        html {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        body {
+            color: black;
+            font-family: 'Acme', sans-serif;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 18px;
+            border: 5px solid black;
+            border-radius: 6px;
+            font-size: 25px;
+            font-family: 'Acme', sans-serif;
+            margin: 0 auto;
+            background-color: white;
+            transition: 0.3s;
+            opacity: 0.8;
+        }
+
+        button:hover {
+            border-radius: 12px;
+            border: 4px dashed black;
+            font-size: 28px;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <pre id="error"></pre>
+
+    <div id="blackout">
+        <button id="start" onclick="start(this);">Start</button>
+    </div>
+
+    <script src="//projects.codewizardshq.com/assets/m11-start-script.js"></script>
+
+</body>
+
+</html>

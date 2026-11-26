@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Taco Clicker</title>
+    <link rel="stylesheet" href="//projects.codewizardshq.com/assets/m11-base-styles.css">
+	<script src="//projects.codewizardshq.com/assets/m11-error-handling.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <script type="module">
+        import * as index from './__target__/index.js';
+        window.index = index;
+    </script>
+    <style>
+        html {
+           background-size: cover;
+           color: black;
+       }
+
+       body {
+           margin: 0;
+           padding: 0;
+           font-family: 'Signika', sans-serif;
+       }
+
+       button {
+           padding: 8px 12px;
+           font-size: 18px;
+       }
+
+       img:active {
+           transition: all 1s; 
+           transform: scale(3);
+       }
+   </style>
+</head>
+
+<body>
+	<pre id="error"></pre>
+
+    <div id="blackout">
+        <button id="start" onclick="start(this);">Start</button>
+    </div>
+
+    <script src="//projects.codewizardshq.com/assets/m11-start-script.js"></script>
+
+</body>
+
+</html>

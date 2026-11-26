@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Picture 3</title>
+    <link rel="stylesheet" href="//projects.codewizardshq.com/assets/m11-base-styles.css">
+    <script src="//projects.codewizardshq.com/assets/m11-error-handling.js"></script>
+    <script type="module">
+        import * as index from './__target__/index.js';
+        window.index = index;
+    </script>
+    <style>
+        html {
+            background-image: url("bg.png");
+        }
+
+        #frame {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            top: 99px;
+            left: 399px;
+            background-color: white;
+        }
+
+        .dog {
+            width: 100px;
+        }
+
+        #dog3 {
+            top: 100px;
+        }
+
+        #dog4 {
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <pre id="error"></pre>
+
+    <div id="blackout">
+        <button id="start" onclick="start(this);">Start</button>
+    </div>
+
+    <div id="frame">
+        <img id="dog1" class="dog" src="dog-1.jpg" />
+        <img id="dog3" class="dog" src="dog-3.jpg" />
+        <img id="dog4" class="dog" src="dog-4.jpg" />
+    </div>
+
+    <script src="//projects.codewizardshq.com/assets/m11-start-script.js"></script>
+
+</body>
+
+</html>
