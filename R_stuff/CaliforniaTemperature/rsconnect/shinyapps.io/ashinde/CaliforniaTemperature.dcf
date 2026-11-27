@@ -1,0 +1,12 @@
+name: CaliforniaTemperature
+title: CaliforniaTemperature
+username: ashinde
+account: ashinde
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12319956
+bundleId: 8867716
+url: https://ashinde.shinyapps.io/CaliforniaTemperature/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
