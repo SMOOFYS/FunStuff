@@ -1,0 +1,231 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #aaeea5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: beige;
+  border: solid 3px black;
+  padding: 10px;
+  border-radius: 12px;
+  width: 900px;
+}
+#TitleBanner{
+  border: solid 3px black;
+  border-radius: 12px;
+  background-image: url('binary.jpg');
+  margin: auto;
+  margin-bottom: 10px;
+  width: 948px;
+  height: 85px;
+}
+
+h2 {
+  background-color: beige;
+  border: solid 3px black;
+  padding: 5px;
+  text-align: center;
+}
+
+#st1 {
+  text-align: center;
+  width: auto;
+}
+
+.parent1 {
+  display: flex;
+  width: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  border: solid 3px black;
+  background-color: #8bc07c;
+  border-radius: 15px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+p {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px black;
+  font-size: 25px;
+}
+
+.child1 {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  align-items: center;
+}
+
+.child2 {
+  padding: 10px;
+  width: 50%;
+}
+
+img {
+  width: 90%;
+  height: 350px;
+  border: solid 3px black;
+  margin: 5px;
+  opacity: 1;
+  align-items: center;
+  border-radius: 25px;
+}
+
+#img1 {
+  background-image: url('pluh.jpg');
+  border-radius: 12px;
+}
+#img2 {
+  background-image: url('csimg.jpg');
+  border-radius: 12px;
+}
+#img3 {
+  background-image: url('collegedroput.png');
+  border-radius: 12px;
+}
+#img4 {
+  background-image: url('csforCA.jpg');
+  border-radius: 12px;
+}
+#img1,
+#img2,
+#img3,
+#img4{
+  border: solid 3px black;
+  background-size: contain;
+}
+
+#table {
+  background-color: #d1ffe7;
+  border: solid 3px black;
+  color: black;
+  padding: 3px;
+  margin: auto;
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 1;
+}
+
+#mainTitle {
+  background-color:#8bc07c;
+  color: #bcfea9;
+  font-weight: bold;
+}
+
+td {
+  border: solid 3px black;
+  margin: 3px;
+  color: black;
+}
+
+.a1{
+  background-color:#617b5b;
+}
+.a2{
+  background-color:#729e67;
+}
+.a3{
+  background-color:#7da772;
+}
+.a4{
+  background-color:#90b785;
+}
+.a5{
+  background-color:#91bc85;
+}
+.a6{
+  background-color:#aad29d;
+}
+
+.words{
+  background-color: #e8fee1;
+}
+
+.image{
+  opacity: 1.0;
+  width: 100px;
+  height: 100px;
+}
+.title{
+  font-weight: bold;
+  background-color: #8bc07c;
+}
+#title1{
+  color: #bcfea9;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word1{
+  background-color: #bcfea9;
+}
+#title2{
+  color: #bfffad;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word2{
+  background-color: #bfffad;
+}
+#title3{
+  color: #c5fcb6;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word3{
+  background-color: #c5fcb6;
+}
+#title4{
+  color: #d3ffc7;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word4{
+  background-color: #d3ffc7;
+}
+#title5{
+  color: #dfffd6;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word5{
+  background-color: #dfffd6;
+}
+#title6{
+  color: #f3fff0;
+  background-color: #e8fee1;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+#word6{
+  background-color: #f3fff0;
+}
+
+#word1,
+#word2,
+#word3,
+#word4,
+#word5,
+#word6{
+  font-size: 20px;
+  color: darkgreen;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}

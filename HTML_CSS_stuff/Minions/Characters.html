@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Don't Worry About It</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #9c391b;
+      overflow: hidden;
+      border: 5px outset #f2ebdf;      
+      text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      display: inline-block; 
+      color: #f2ebdf;
+      padding: 14px 5%;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #f2ebdf;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #f2ebdf;
+      color: black;
+    }
+    #banner3{
+      margin-top: 30px;
+      border: 5px solid black;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .character-card {
+      background-color: #f2ebdf; /* Change the background color */
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: 15px;
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .character-card:hover {
+      transform: scale(1.05);
+    }
+
+    .character-image {
+      width: 100%;
+      /* Remove the fixed height to display the full-size image */
+      object-fit: cover;
+    }
+
+    .character-info {
+      padding: 15px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: black; /* Change the text color */
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.4;
+      color: black; /* Change the text color */
+    }
+
+    /* Closeup modal */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      max-width: 600px;
+      width: 100%;
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      color: #333;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body background="background3.png">
+
+  <div class="container">
+    <div class="topnav" align="center" id="container">
+      <center>
+        <font id="TopnavText"face="Impact">
+          <a href="DynamicDriveTesting.html">About Us</a>
+          <a href="Installments.html">Installments</a>
+          <a href="index.html">Home</a>
+          <a class="active" href="Characters.html">Characters</a>
+          <a href="https://shop.universalorlando.com/shop/shop-by-brands/despicable-me?#facet:&productBeginIndex:0&facetLimit:&orderBy:&pageView:grid&minPrice:&maxPrice:&pageSize:&">Merchandise</a>
+        </font>
+      </center> 
+    </div>
+  </div>
+  <center>
+    <img id="banner3" src="banner3.png" />
+  </center>
+
+  <section>
+
+    <div class="character-card" onclick="openModal('Gru', 'characters/gru.jpg', 'Once a formidable supervillain, Grus character evolves into a loving father, navigating the complexities of parenthood with humor and vulnerability. His journey from a sinister mastermind to a family-oriented protagonist showcases a depth of character rarely found in animated films.')">
+      <img class="character-image" src="characters/gru.jpg" alt="Character 1">
+      <div class="character-info">
+        <h2>Gru</h2>
+        <p>Gru is a fictional character in the "Despicable Me" animated film series, created by Illumination Entertainment. Initially portrayed as a supervillain, Gru later becomes a reformed character and adopts three orphaned girls, evolving into a loving father figure throughout the films.</p>
+      </div>
+    </div>
+
+
+    <div class="character-card" onclick="openModal('Lucy', 'characters/lucy.jpg', 'Lucys transformation from an Anti-Villain League agent to Grus wife unfolds with spirited dedication and humor. Her dynamic character explores themes of love, partnership, and maternal instincts, contributing to the heartwarming family atmosphere in the series.')">
+      <img class="character-image" src="characters/lucy.jpg" alt="Character 2">
+      <div class="character-info">
+        <h2>Lucy</h2>
+        <p>Lucy Wilde is a character in the "Despicable Me" film series who starts as an Anti-Villain League (AVL) agent assigned to work with Gru. Over time, she becomes Gru's love interest and eventually his wife, playing a key role in the family's adventures.</p>
+      </div>
+    </div>
+
+      <div class="character-card" onclick="openModal('Agnes, Edith, and Margo', 'characters/EMD.png', 'The three adopted sisters, Agnes, Edith, and Margo, offer a delightful blend of innocence, adventurous spirit, and responsible elder-sister dynamics. Their unique personalities contribute to the family dynamics, creating a mix of heartwarming and comical moments.')">
+        <img class="character-image" src="characters/EMD.png" alt="Character 2">
+        <div class="character-info">
+          <h2>Agnes, Edith, and Margo</h2>
+          <p>
+            Agnes, Edith, and Margo are the three adopted daughters of Gru in the "Despicable Me" film series. Agnes is the youngest and the most adorable, Edith is the adventurous and tomboyish middle child, and Margo is the responsible and eldest sister. Together, they bring warmth and joy to Gru's life as he navigates the challenges of fatherhood while also participating in various humorous and heartwarming adventures.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Bob the Minion', 'characters/Bob.jpg', 'Bobs endearing love for teddy bears and childlike innocence make him a standout among the mischievous Minions. His whimsical antics and distinct personality contribute to the charm of the Minion group, making Bob a lovable and memorable character.')">
+        <img class="character-image" src="characters/Bob.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>Bob the Minion</h2>
+          <p>
+            Bob is one of the Minions, small, yellow, and mischievous characters in the "Despicable Me" franchise. He stands out with his different-shaped eyes and childlike innocence. Bob is known for his love of teddy bears and his endearing personality, making him a fan-favorite among the Minion characters.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Kevin the Minion', 'characters/kevin.jpg', 'Kevins tall stature and leadership qualities make him a central figure among the Minions. His adventurous spirit adds both comedic and action elements to their escapades, showcasing Kevin as a key character in the Minion storyline.')">
+        <img class="character-image" src="characters/kevin.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>Kevin the Minion</h2>
+          <p>
+            Kevin is another prominent Minion character in the "Despicable Me" series. He is recognizable by his tall stature and two eyes. Kevin often takes on leadership roles among the Minions and is known for his adventurous and brave nature. In the films, he plays a central role in various missions and comedic situations, contributing to the Minions' entertaining antics.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Stuart the Minion', 'characters/stuart.png', 'Stuarts playful demeanor and musical inclination bring a whimsical touch to the Minion ensemble. With his one eye and carefree nature, Stuart adds humor and lightheartedness to the Minions collective adventures, making him a distinctive and entertaining member of the group.')">
+        <img class="character-image" src="characters/stuart.png" alt="Character 2">
+        <div class="character-info">
+          <h2>Stuart the Minion</h2>
+          <p>
+            Stuart is a notable Minion character in the "Despicable Me" franchise, recognized by his one eye and playful demeanor. Stuart is often depicted as the more musically inclined and carefree Minion. Like his fellow Minions, he adds humor and charm to the films, engaging in various comical antics alongside Gru and his other companions.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Vector', 'characters/vector.jpg', 'Vector, the primary antagonist in the first film, is defined by tech-savvy genius and an eccentric personality. His rivalry with Gru, coupled with his distinctive orange jumpsuit, creates a memorable antagonist whose inventive schemes and humorous moments contribute to the films overall charm.')">
+        <img class="character-image" src="characters/vector.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>Vector</h2>
+          <p>
+            Vector is the main antagonist in the first "Despicable Me" film. He is a tech-savvy and eccentric character with a distinctive orange jumpsuit. Vector becomes Gru's rival as he attempts to steal the Great Pyramid of Giza, and his quirky personality adds a layer of humor to the storyline. Despite being an antagonist, Vector's over-the-top style and technological gadgets make him a memorable character in the series.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Balthazar Bratt', 'characters/balthazarBratt.jpg', 'Balthazar Bratts unique 80s-inspired style and nostalgic quirks add depth to his character as a former child star turned supervillain. His background and entertaining use of retro gadgets and dance moves create a distinct and memorable dynamic in Despicable Me 3.')">
+        <img class="character-image" src="characters/balthazarBratt.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>Balthazar Bratt</h2>
+          <p>
+            Balthazar Bratt is a character in the "Despicable Me" film series, introduced in "Despicable Me 3." He is a former child star turned supervillain, known for his '80s-inspired style and obsession with the character he played in his youth. Balthazar's humorous and nostalgic antics, including his use of retro gadgets and dance moves, make him a unique and entertaining adversary for Gru and the Minions in the third installment of the franchise.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('Dru Gru', 'characters/DruGru.jpg', 'Dru Grus charming and flamboyant demeanor provides a contrast to Gru, exploring themes of identity and family bonds. The dynamic between the twin brothers adds humor and depth to the narrative as they navigate the world of villainy together in Despicable Me 3.')">
+        <img class="character-image" src="characters/DruGru.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>Dru Gru</h2>
+          <p>
+            Dru Gru is a character introduced in "Despicable Me 3." He is Gru's long-lost twin brother, and their striking physical resemblance contrasts with their different personalities. Dru is portrayed as charming, flamboyant, and enthusiastic, standing in contrast to Gru's more reserved and gruff demeanor. The dynamic between the two brothers adds humor and depth to the storyline as they navigate their family ties and embrace their shared legacy of villainy.</p>
+        </div>
+      </div>
+
+      <div class="character-card" onclick="openModal('The Vicious 6', 'characters/vicious6.jpg', 'The Vicious 6, led by Wild Knuckles in Minions: The Rise of Gru, presents a formidable group of supervillains. Their diverse personalities collectively pose a significant challenge to Gru, introducing suspense and intrigue to the narrative as the aspiring supervillain faces off against this menacing group.')">
+        <img class="character-image" src="characters/vicious6.jpg" alt="Character 2">
+        <div class="character-info">
+          <h2>The Vicious 6</h2>
+          <p>
+            The Vicious 6 is a group of supervillains featured in the "Minions: The Rise of Gru" film. Comprising six formidable members, this villainous group serves as a central element in the movie's plot. Led by a character named Wild Knuckles, the Vicious 6 pose a significant challenge to a young Gru as he embarks on his journey to become a supervillain.</p>
+        </div>
+      </div>
+
+    <!-- Add more character cards as needed -->
+
+  </section>
+
+  <!-- Closeup Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" class="character-image" alt="">
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+  <script>
+    function openModal(title, imageSrc, description) {
+      const modal = document.getElementById('myModal');
+      const modalTitle = document.getElementById('modalTitle');
+      const modalImage = document.getElementById('modalImage');
+      const modalDescription = document.getElementById('modalDescription');
+
+      modalTitle.textContent = title;
+      modalImage.src = imageSrc;
+      modalDescription.textContent = description;
+
+      modal.style.display = 'flex';
+
+      // Close the modal when clicking outside of it
+      window.onclick = function(event) {
+        if (event.target === modal) {
+          closeModal();
+        }
+      };
+
+      // Close the modal when pressing the "Esc" key
+      window.onkeydown = function(event) {
+        if (event.key === 'Escape') {
+          closeModal();
+        }
+      };
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('myModal');
+      modal.style.display = 'none';
+
+      // Remove the event listeners when the modal is closed
+      window.onclick = null;
+      window.onkeydown = null;
+    }
+  </script>
+  
+</body>
+
+</html>

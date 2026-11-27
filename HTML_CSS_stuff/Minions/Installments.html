@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Index</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: 'Roboto', sans-serif;
+    }
+    .container {
+      text-align: center;
+    }
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+      background-color: #c4c79a;
+      overflow: hidden;
+      border: 5px outset #929db1;      
+      text-align: center;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      display: inline-block; 
+      color: #f2ebdf;
+      padding: 14px 5%;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #929db1;
+      color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #f2ebdf;
+      color: black;
+    }
+
+    #banner2{
+      margin: 30px;
+      margin-left: 67px;
+      border: 5px solid black;
+    }
+    #characterPic{
+      width: 500px;
+      height: 750px;
+      margin: 0;
+    }
+    #table{
+      margin-left: 67px;
+      margin-right: 67px;
+      margin-top: 35px;
+      border: 5px solid #929db1;
+      background-color: #c4c79a;
+    }
+    #movieText{
+      width: 500px;
+    }
+    #movieDesc{
+      font-size: 30px;
+      color: #F8F7F7;
+      font-family: 'Roboto', sans-serif;
+    }
+    #MovieTextScroller{
+      font-family: 'Orbitron', sans-serif;
+      color: #EBB55F;
+      font-size: 75px;
+    }
+    #MovieTextDisplay{
+      background-color: #344151;
+      width: 85%;
+      height: 75%;
+      border: solid black 11px;
+      border-color: #050321;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #movieContainer{
+      background-color: #C8C9AE;
+      width: 600px;
+      height: 150px;
+      position: relative;
+      margin: auto;
+      border: 1px solid black;
+    }
+    #GameTextScroller{
+      font-family: 'Press Start 2P', cursive;
+      color: #EBB55F;
+      font-size: 70px;
+      margin-top: 28px;
+    }
+    #GameTextDisplay{
+      background-color: #344151;
+      width: 100%;
+      height: 125px;
+      border: solid black 8px;
+      border-color: #050321;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+    }
+    #GameTextDisplay::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: repeating-linear-gradient(transparent, transparent 4px, rgba(255, 255, 255, 0.1) 4px, rgba(255, 255, 255, 0.1) 8px);
+    }
+    #gameContainer{
+      width: 600px;
+      height: 80px;
+      position: relative;
+      margin-top: 60px; 
+      margin-bottom: 60px; 
+      border: 1px solid black;
+    }
+
+    .slideshow-container {
+      max-width: 1116px;
+      position: relative;
+      margin-top: 35px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 50%;
+      width: 50px;
+      height: 50px;
+      margin-top: -25px;
+      cursor: pointer;
+      font-size: 24px;
+      color: white;
+      background-color: black;
+      border: none;
+      outline: none;
+    }
+
+    .prev {
+      left: 10px;
+    }
+
+    .next {
+      right: 10px;
+    }
+
+    .custom-slideshow-container {
+        max-width: 1052px;
+        position: relative;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .custom-slide {
+        display: none;
+        width: 100%;
+      }
+
+      .custom-image {
+        width: 100%;
+        height: auto;
+      }
+
+      .custom-arrow {
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        margin: -25px -30px 0px -30px;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        background-color: black;
+        border: none;
+        outline: none;
+      }
+
+      .custom-prev {
+        left: 10px;
+
+      }
+
+      .custom-next {
+        right: 10px;
+
+      }
+    </style>
+  </style>
+</head>
+
+<body background="background2 copy.jpg">
+
+  <div class="container">
+    <div class="topnav" align="center">
+      <center>
+        <font id="TopnavText"face="Impact">
+          <a href="DynamicDriveTesting.html">About Us</a>
+          <a class="active"href="Installments.html">Installments</a>
+          <a href="index.html">Home</a>
+          <a href="Characters.html">Characters</a>
+          <a href="https://shop.universalorlando.com/shop/shop-by-brands/despicable-me?#facet:&productBeginIndex:0&facetLimit:&orderBy:&pageView:grid&minPrice:&maxPrice:&pageSize:&">Merchandise</a>
+        </font>
+      </center> 
+    </div>
+  </div>
+<center>
+<img id="banner2" src="banner2 copy.jpg" />
+</center>
+<div id="movieContainer">
+  <div id="MovieTextDisplay">
+    <marquee id="MovieTextScroller" direction="left" scrollamount="15">Minions - Movies</marquee>
+  </div>
+</div>
+<center>
+  <div class="slideshow-container">
+    <div class="mySlides">
+      <img class="imagez" src="Images/minionsRiseTable.png" alt="Slide 1">
+    </div>
+
+    <div class="mySlides">
+      <img class="imagez" src="Images/minionsTable.png" alt="Slide 2">
+    </div>
+
+    <div class="mySlides">
+      <img class="imagez" src="Images/DM1Table.png" alt="Slide 3">
+    </div>
+    <div class="mySlides">
+      <img class="imagez" src="Images/DM2Table.png" alt="Slide 4">
+    </div>
+
+    <div class="mySlides">
+      <img class="imagez" src="Images/DM3Table.png" alt="Slide 5">
+    </div>
+    <!-- Add more slides as needed -->
+
+    <button class="arrow prev" onclick="plusSlides(-1)">&#8249;</button>
+    <button class="arrow next" onclick="plusSlides(1)">&#8250;</button>
+  </div>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+    }
+  </script>
+</center>
+<center>
+  <div id="gameContainer">
+    <div id="GameTextDisplay">
+      <marquee id="GameTextScroller" direction="left" scrollamount="15">Minions - Video Games</marquee>
+    </div>
+  </div>
+</center>
+  <center>
+    <div class="custom-slideshow-container">
+      <div class="custom-slide">
+        <img class="custom-image" src="Images/gameTable1.png" alt="Slide 1">
+      </div>
+
+      <div class="custom-slide">
+        <img class="custom-image" src="Images/gameTable2.png" alt="Slide 2">
+      </div>
+
+      <div class="custom-slide">
+        <img class="custom-image" src="Images/gameTable3.png" alt="Slide 3">
+      </div>
+
+      <div class="custom-slide">
+        <img class="custom-image" src="Images/gameTable4.png" alt="Slide 4">
+      </div>
+
+      <div class="custom-slide">
+        <img class="custom-image" src="Images/gameTable5.png" alt="Slide 5">
+      </div>
+
+      <!-- Add more slides as needed -->
+
+      <button class="custom-arrow custom-prev" onclick="changeSlide(-1)">&#8249;</button>
+      <button class="custom-arrow custom-next" onclick="changeSlide(1)">&#8250;</button>
+    </div>
+
+    <script>
+      let currentSlide = 1;
+      showSlide(currentSlide);
+
+      function changeSlide(n) {
+        showSlide(currentSlide += n);
+      }
+
+      function showSlide(n) {
+        let i;
+        const slides = document.getElementsByClassName("custom-slide");
+
+        if (n > slides.length) {
+          currentSlide = 1;
+        }
+
+        if (n < 1) {
+          currentSlide = slides.length;
+        }
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+
+        slides[currentSlide - 1].style.display = "block";
+      }
+    </script>
+  </center>
+</body>
+
+</html>
