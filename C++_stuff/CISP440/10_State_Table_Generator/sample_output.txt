@@ -1,0 +1,315 @@
+Generating state table for abab...
+state 0 a goto 1 b goto 0
+state 1 aa goto 1 ab goto 2
+state 2 aba goto 3 abb goto 0
+state 3 abaa goto 1 abab goto 4
+state 4 ababa goto 3 ababb goto 0
+
+Complete state table for abab...
+
+s        a  b
+
+0        1  0
+
+1        1  2
+
+2        3  0
+
+3        1  4
+
+4        3  0
+The string abab was found at locations: 9, 17, 19, 21, 41, 43, 56
+Generating state table for abbbbbbaaaaaba...
+state 0 a goto 1 b goto 0
+state 1 aa goto 1 ab goto 2
+state 2 aba goto 1 abb goto 3
+state 3 abba goto 1 abbb goto 4
+state 4 abbba goto 1 abbbb goto 5
+state 5 abbbba goto 1 abbbbb goto 6
+state 6 abbbbba goto 1 abbbbbb goto 7
+state 7 abbbbbba goto 8 abbbbbbb goto 0
+state 8 abbbbbbaa goto 9 abbbbbbab goto 2
+state 9 abbbbbbaaa goto 10 abbbbbbaab goto 2
+state 10 abbbbbbaaaa goto 11 abbbbbbaaab goto 2
+state 11 abbbbbbaaaaa goto 12 abbbbbbaaaab goto 2
+state 12 abbbbbbaaaaaa goto 1 abbbbbbaaaaab goto 13
+state 13 abbbbbbaaaaaba goto 14 abbbbbbaaaaabb goto 3
+state 14 abbbbbbaaaaabaa goto 1 abbbbbbaaaaabab goto 2
+
+Complete state table for abbbbbbaaaaaba...
+
+s   a   b
+
+0   1   0
+
+1   1   2
+
+2   1   3
+
+3   1   4
+
+4   1   5
+
+5   1   6
+
+6   1   7
+
+7   8   0
+
+8   9   2
+
+9   10  2
+
+10  11  2
+
+11  12  2
+
+12  1   13
+
+13  14  3
+
+14  1   2
+The string abbbbbbaaaaaba was found at locations: 5076, 53879, 57481, 61284, 66493, 80261, 119793, 169264, 242782, 259710, 269478, 271360, 283905, 294516, 313361, 396413, 397376, 451758, 474455, 483353, 486142, 492498, 517815, 518152, 529232, 603809, 607741, 610224, 660559, 681592, 691196, 697108, 715966, 729453, 744730, 745793, 762425, 769509, 773622, 785017, 808428, 832840, 866328, 878155, 886660, 895208, 907117, 920753, 934251, 937949, 955079, 969093, 982462, 985893, 987693
+Generating state table for abbbbaabbbbaaa...
+state 0 a goto 1 b goto 0
+state 1 aa goto 1 ab goto 2
+state 2 aba goto 1 abb goto 3
+state 3 abba goto 1 abbb goto 4
+state 4 abbba goto 1 abbbb goto 5
+state 5 abbbba goto 6 abbbbb goto 0
+state 6 abbbbaa goto 7 abbbbab goto 2
+state 7 abbbbaaa goto 1 abbbbaab goto 8
+state 8 abbbbaaba goto 1 abbbbaabb goto 9
+state 9 abbbbaabba goto 1 abbbbaabbb goto 10
+state 10 abbbbaabbba goto 1 abbbbaabbbb goto 11
+state 11 abbbbaabbbba goto 12 abbbbaabbbbb goto 0
+state 12 abbbbaabbbbaa goto 13 abbbbaabbbbab goto 2
+state 13 abbbbaabbbbaaa goto 14 abbbbaabbbbaab goto 8
+state 14 abbbbaabbbbaaaa goto 1 abbbbaabbbbaaab goto 2
+
+Complete state table for abbbbaabbbbaaa...
+
+s  a  b
+
+0  1  0
+
+1  1  2
+
+2  1  3
+
+3  1  4
+
+4  1  5
+
+5  6  0
+
+6  7  2
+
+7  1  8
+8   1   9
+
+9   1   10
+
+10  1   11
+
+11  12  0
+
+12  13  2
+
+13  14  8
+
+14  1   2
+
+The string abbbbaabbbbaaa was found at locations: 3691, 45917, 64065, 65729, 68523, 102265, 114613, 118317, 136107, 140599, 154294, 201245, 214377, 216634, 234323, 236955, 240712, 300865, 310297, 326260, 336369, 430808, 451784, 464928, 492592, 524329, 558422, 576430, 591516, 599975, 606467, 640609, 660600, 690675, 693866, 696465, 713355, 718576, 731506, 741856, 743228, 752967, 793694, 802750, 821601, 840638, 843169, 853710, 863019, 866080, 878778, 885091, 889435, 900533, 923350, 954341, 955281, 965048, 967667, 977051, 995190
+Generating state table for aaaaaaabaaaaaaa...
+state 0 a goto 1 b goto 0
+state 1 aa goto 2 ab goto 0
+state 2 aaa goto 3 aab goto 0
+state 3 aaaa goto 4 aaab goto 0
+state 4 aaaaa goto 5 aaaab goto 0
+state 5 aaaaaa goto 6 aaaaab goto 0
+state 6 aaaaaaa goto 7 aaaaaab goto 0
+state 7 aaaaaaaa goto 7 aaaaaaab goto 8
+state 8 aaaaaaaba goto 9 aaaaaaabb goto 0
+state 9 aaaaaaabaa goto 10 aaaaaaabab goto 0
+state 10 aaaaaaabaaa goto 11 aaaaaaabaab goto 0
+state 11 aaaaaaabaaaa goto 12 aaaaaaabaaab goto 0
+state 12 aaaaaaabaaaaa goto 13 aaaaaaabaaaab goto 0
+state 13 aaaaaaabaaaaaa goto 14 aaaaaaabaaaaab goto 0
+state 14 aaaaaaabaaaaaaa goto 15 aaaaaaabaaaaaab goto 0
+state 15 aaaaaaabaaaaaaaa goto 7 aaaaaaabaaaaaaab goto 8
+
+Complete state table for aaaaaaabaaaaaaa...
+
+s   a   b
+0   1   0
+
+1   2   0
+
+2   3   0
+
+3   4   0
+
+4   5   0
+
+5   6   0
+
+6   7   0
+
+7   7   8
+
+8   9   0
+
+9   10  0
+
+10  11  0
+
+11  12  0
+
+12  13  0
+
+13  14  0
+
+14  15  0
+
+15  7   8
+
+The string aaaaaaabaaaaaaa was found at locations: 9055, 10856, 99114, 112436, 117499, 142125, 147355, 232768, 305323, 379598, 380853, 401159, 405361, 419030, 437356, 467444, 493910, 496836, 499374, 578091, 621661, 739213, 756884, 802905, 817965, 878707, 897098, 907728, 972968
+Generating state table for aabbbababaaababbaaaa...
+state 0 a goto 1 b goto 0
+state 1 aa goto 2 ab goto 0
+state 2 aaa goto 2 aab goto 3
+state 3 aaba goto 1 aabb goto 4
+state 4 aabba goto 1 aabbb goto 5
+state 5 aabbba goto 6 aabbbb goto 0
+state 6 aabbbaa goto 2 aabbbab goto 7
+state 7 aabbbaba goto 8 aabbbabb goto 0
+state 8 aabbbabaa goto 2 aabbbabab goto 9
+state 9 aabbbababa goto 10 aabbbababb goto 0
+state 10 aabbbababaa goto 11 aabbbababab goto 0
+state 11 aabbbababaaa goto 12 aabbbababaab goto 3
+state 12 aabbbababaaaa goto 2 aabbbababaaab goto 13
+state 13 aabbbababaaaba goto 14 aabbbababaaabb goto 4
+state 14 aabbbababaaabaa goto 2 aabbbababaaabab goto 15
+state 15 aabbbababaaababa goto 1 aabbbababaaababb goto 16
+state 16 aabbbababaaababba goto 17 aabbbababaaababbb goto 0
+state 17 aabbbababaaababbaa goto 18 aabbbababaaababbab goto 0
+state 18 aabbbababaaababbaaa goto 19 aabbbababaaababbaab goto 3
+state 19 aabbbababaaababbaaaa goto 20 aabbbababaaababbaaab goto 3
+state 20 aabbbababaaababbaaaaa goto 2 aabbbababaaababbaaaab goto 3
+
+Complete state table for aabbbababaaababbaaaa...
+
+s   a   b
+
+0   1   0
+
+1   2   0
+
+2   2   3
+
+3   1   4
+
+4   1   5
+
+5   6   0
+
+6   2   7
+
+7   8   0
+
+8   2   9
+
+9   10  0
+
+10  11  0
+
+11  12  3
+
+12  2   13
+
+13  14  4
+
+14  2   15
+
+15  1   16
+
+16  17  0
+
+17  18  0
+
+18  19  3
+
+19  20  3
+
+20  2   3
+The string aabbbababaaababbaaaa was found at locations: 184443, 291636
+Generating state table for aaaabababaaaaabbaaaa...
+state 0 a goto 1 b goto 0
+state 1 aa goto 2 ab goto 0
+state 2 aaa goto 3 aab goto 0
+state 3 aaaa goto 4 aaab goto 0
+state 4 aaaaa goto 4 aaaab goto 5
+state 5 aaaaba goto 6 aaaabb goto 0
+state 6 aaaabaa goto 2 aaaabab goto 7
+state 7 aaaababa goto 8 aaaababb goto 0
+state 8 aaaababaa goto 2 aaaababab goto 9
+state 9 aaaabababa goto 10 aaaabababb goto 0
+state 10 aaaabababaa goto 11 aaaabababab goto 0
+state 11 aaaabababaaa goto 12 aaaabababaab goto 0
+state 12 aaaabababaaaa goto 13 aaaabababaaab goto 0
+state 13 aaaabababaaaaa goto 14 aaaabababaaaab goto 5
+state 14 aaaabababaaaaaa goto 4 aaaabababaaaaab goto 15
+state 15 aaaabababaaaaaba goto 6 aaaabababaaaaabb goto 16
+state 16 aaaabababaaaaabba goto 17 aaaabababaaaaabbb goto 0
+state 17 aaaabababaaaaabbaa goto 18 aaaabababaaaaabbab goto 0
+state 18 aaaabababaaaaabbaaa goto 19 aaaabababaaaaabbaab goto 0
+state 19 aaaabababaaaaabbaaaa goto 20 aaaabababaaaaabbaaab goto 0
+state 20 aaaabababaaaaabbaaaaa goto 4 aaaabababaaaaabbaaaab goto 5
+
+Complete state table for aaaabababaaaaabbaaaa...
+
+s  a  b
+
+0  1  0
+
+1  2  0
+
+2  3  0
+
+3  4  0
+
+4  4  5
+
+5  6  0
+
+6  2  7
+7   8   0
+
+8   2   9
+
+9   10  0
+
+10  11  0
+
+11  12  0
+
+12  13  0
+
+13  14  5
+
+14  4   15
+
+15  6   16
+
+16  17  0
+
+17  18  0
+
+18  19  0
+
+19  20  0
+
+20  4   5
+
+The string aaaabababaaaaabbaaaa was found at locations: 250175, 729135
